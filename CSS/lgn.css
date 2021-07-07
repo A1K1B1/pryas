@@ -1,0 +1,157 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    color: rgba(22, 21, 21,20.85);
+}
+/* CSS IN LOGIN  */
+#LOGIN{
+    /* border:3px solid red; */
+    height: 100vh;
+    
+}
+
+#LOGIN::before{
+    content: "";
+    background:url('../myimg/crop.jfif') no-repeat center center/cover;;
+    position: absolute;
+    height:100vh;
+    width: 100%;
+    z-index: -1;
+    opacity:.9;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+        
+}
+/* css in container #navbar img  */
+#navbar img{
+    /* border: 3px solid red; */
+    height: 100%;
+    width: 8.4%;
+}
+#navbar img{
+    /* border: 3px solid red; */
+    height: 100%;
+    width: 8.4%;
+    box-shadow: 18px 18px 22px black ;
+}
+ img:hover{
+   transform:scale(2);
+    
+}
+
+h1:hover
+{
+    color: white;
+    transform:skew(34deg);
+    font-family: 'Playball', cursive;
+    
+}
+
+h1{
+    
+    align-items: flex-start;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 3.89em;
+    /* border: 3px solid red ; */
+    /* display: flex; */display: grid;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: 670px;
+    margin-right: 670px;
+       text-shadow: 10px 10px 11px black;
+ 
+}
+
+
+/* css in quots */
+
+
+q{
+    margin-left: 436px;
+    margin-right: 661px;
+
+    font-size: 2em;
+    cursor: pointer;
+    /* border: 3px solid red; */
+    display:grid;
+    justify-content: center;
+    font-family: 'Playball', cursive;
+    /* margin: 8px 549px; */
+    padding: 27px 88px;
+    margin-right: 661px;
+         text-shadow: 10px 10px 7px black;
+
+}
+q:hover{
+    transform: skew(25deg);
+    color: white;
+    z-index: -.7;
+}
+
+
+/* CSS in box input  */
+
+ form{
+    /* border: 3px solid black; */
+    /* display: flex; */
+
+    justify-content: center;
+    display: grid;
+    grid-gap: 0px;
+    margin: 13px;
+    margin-left: 300px;
+    margin-right: 300px;
+    
+    
+
+}
+input[type="email"]{
+    padding: 6px 56px;
+    font-size: 1.5em;
+    background: rgba(22, 21, 21,0.05);
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Playball', cursive;
+    box-shadow: -15px -15px 20px black;
+    
+
+}
+
+input[type="password"]{
+    padding: 6px 76px;
+    font-size: 1.5em;
+    background: rgba(22, 21, 21,0.05);
+    border-bottom: 3px solid black;
+    border-radius: 10px;
+    font-family: 'Playball', cursive;
+    box-shadow: -15px -15px 20px black;
+    color: black;
+}
+
+
+input[type=submit]{
+    font-size: 34px;
+    font-family: 'Playball', cursive;
+    background: rgba(22, 21, 21,0.05);
+    cursor:pointer;
+    border-radius: 10px;
+    box-shadow: -15px -15px 20px black;
+    color: rgba(22, 21, 21,0.5);
+}
+ input[type="submit"]:hover{
+     /* animation: all 4s ease-in .05s 2 forword; */
+     transform: skew(3);
+ }
+ input:hover{
+    color:white;
+    box-shadow:15px 15px 20px black;
+    transform:translateX(123px);
+    
+}
+img{
+      height: 20px;
+      width: 20px;
+}
